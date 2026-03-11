@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatNova</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="chat-wrapper">
+    <div class="chat-container">
+        <header class="chat-header">
+            <img src="/static/logo.png" alt="ChatNova Logo" class="chat-logo">
+            <h1>ChatNova</h1>
+            <button id="themeToggle">🌙</button>
+        </header>
+        <main class="chat-messages" id="chatMessages"></main>
+        <footer class="chat-footer">
+            <div class="chat-input-container">
+                <input type="text" id="messageInput" placeholder="Type your message...">
+                <button id="voiceBtn">🎙️</button>
+                <input type="file" id="fileInput">
+                <button id="sendBtn">Send</button>
+            </div>
+            <div id="quickReplies" class="quick-replies"></div>
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/static/script.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatNova💬</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="login-wrapper" id="loginWrapper">
+    <div class="login-container">
+        <h2>Login to ChatNova</h2>
+        <input type="text" id="userId" placeholder="User ID">
+        <input type="password" id="password" placeholder="Password">
+        <button id="loginBtn">Login</button>
+        <p id="loginError" class="error"></p>
+    </div>
+</div>
+
+<div class="chat-wrapper" id="chatWrapper" style="display:none;">
+    <div class="chat-container">
+        <header class="chat-header">
+            <img id="chatLogo" src="/static/logo_dark.png" alt="ChatNova Logo" class="chat-logo">
+            <h1>ChatNova💬</h1>
+            <button id="themeToggle">🌙</button>
+        </header>
+        <main class="chat-messages" id="chatMessages"></main>
+        <footer class="chat-footer"> -->
+            <!-- <div class="chat-input-container">
+                <button id="voiceBtn">🎤</button>
+                <button id="fileBtn">📎</button>
+                <input type="file" id="fileInput" style="display:none;">
+                <input type="text" id="messageInput" placeholder="Type your message...">
+                <button id="sendBtn">Send</button>
+            </div> -->
+            <!-- <div class="chat-input-container">
+                <input type="text" id="messageInput" placeholder="Type your message...">
+                <button id="voiceBtn">🎤</button>
+                <input type="file" id="fileBtn" style="display:none">
+                <button onclick="document.getElementById('fileBtn').click()">📎 Upload File/Image</button>
+                <button id="sendBtn">Send</button>
+            </div>
+            <div id="quickReplies" class="quick-replies"></div>
+        </footer>
+    </div>
+    <div class="history-panel" id="historyPanel">
+        <h3>Conversation History</h3>
+        <ul id="historyList"></ul>
+    </div>
+</div>
+
+<div id="welcomeMessage" class="welcome">Welcome to ChatNova 💬</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/static/script.js"></script>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChatNova</title>
+  <link rel="stylesheet" href="static/style.css"/>
+</head>
+<body>
+  <header>
+    <img id="logo" src="static/logo_dark.png" alt="ChatNova Logo">
+    <h1>ChatNova</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <main id="chatbox"></main>
+
+  <div id="quickReplies">
+    <button onclick="sendQuick('Tell me a joke')">😂 Joke</button>
+    <button onclick="sendQuick('Give me a quote')">💡 Quote</button>
+    <button onclick="sendQuick('What can you do?')">❓ Help</button>
+  </div>
+
+  <footer>
+    <input type="text" id="userInput" placeholder="Type your message..."/>
+    <button id="sendBtn">Send</button>
+    <button id="voiceBtn">🎤</button>
+    <input type="file" id="fileInput" hidden>
+    <button id="fileBtn">📎</button>
+  </footer>
+
+  <script src="static/script.js"></script>
+</body>
+</html> -->
