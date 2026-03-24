@@ -8,8 +8,7 @@ import os
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-# Gemini API key directly in code
-API_KEY = "AIzaSyCWeXF6gmudmVSLWmmD6LbrRqizZLB9Xy0"
+API_KEY = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=API_KEY)
 
 class ChatRequest(BaseModel):
